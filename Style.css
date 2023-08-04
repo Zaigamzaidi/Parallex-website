@@ -1,0 +1,79 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  line-height: 1.8em;
+  font-family: "lato",Sans-Serif;
+  height: 100%;
+  font-size: 16px;
+  color: #666;
+  
+}
+.img1{
+  background-image: url(image/image1.png);
+  min-height: 300px;
+}
+.img2{
+  background-image: url(image/image2.png);
+  min-height: 400px;
+}
+.img3{
+  background-image: url(image/image3.png);
+  min-height: 400px;
+}
+.img4{
+  background-image: url(image/image4.png);
+  min-height: 400px;
+  
+}
+.img5{
+background-image: url(image/image5.png);
+  min-height: 400px;
+}
+.img1,.img2,.img3 ,.img4,.img5{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+.text1{ 
+  position: absolute;
+  
+  margin: 15% 40%;
+  color: black;
+  text-align: center;
+  letter-spacing: 17px;
+  text-transform: uppercase;
+  font-size: 25px;
+  
+}
+.bgcolor {
+  background-color: black;
+  color: white;
+}
+.section1,.section4 {
+  
+  margin: 20px 40px;
+  text-align: center;}
+  
+  .sectionbg,.section3bg,.section5bg{
+    background-color:#f4f4f4;
+    color: #1d2334;
+  }
+.text2,.text3,.text4,.text5{
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 19%  40%  ;
+  font-size: 24px;
+  letter-spacing: 9px;
+}
+.section2, .section3,.section5{
+  text-align: center;
+  margin: 20px 40px;
+}
+.section2bg,.section4bg{
+  background-color: #7e7e7e8d;
+  color: #ffffff8d;
+}
